@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{443A6EAB-32A3-4FC6-BB13-0A2AE084C560}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>appSistemaDental</RootNamespace>
+    <AssemblyName>appSistemaDental</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Boleta\BoletaListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boleta\BoletaListado.Designer.cs">
+      <DependentUpon>BoletaListado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boleta\BoletaListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boleta\BoletaListar.Designer.cs">
+      <DependentUpon>BoletaListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Boleta\BoletaRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Boleta\BoletaRegistrar.Designer.cs">
+      <DependentUpon>BoletaRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConexionBD.cs" />
+    <Compile Include="DAO\BoletaDAO.cs" />
+    <Compile Include="clsDetalleBoleta.cs" />
+    <Compile Include="DAO\PagoDAO.cs" />
+    <Compile Include="Historial\HistorialConsultar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historial\HistorialConsultar.Designer.cs">
+      <DependentUpon>HistorialConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente\PacienteListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paciente\PacienteListar.Designer.cs">
+      <DependentUpon>PacienteListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente\PacienteActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paciente\PacienteActualizar.Designer.cs">
+      <DependentUpon>PacienteActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente\PacienteRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paciente\PacienteRegistrar.Designer.cs">
+      <DependentUpon>PacienteRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paciente\PacienteEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paciente\PacienteEliminar.Designer.cs">
+      <DependentUpon>PacienteEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Container.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Container.Designer.cs">
+      <DependentUpon>Container.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\PacienteDAO.cs" />
+    <Compile Include="Pago\PagoEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pago\PagoEliminar.Designer.cs">
+      <DependentUpon>PagoEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pago\PagoListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pago\PagoListar.Designer.cs">
+      <DependentUpon>PagoListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pago\PagoRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pago\PagoRegistrar.Designer.cs">
+      <DependentUpon>PagoRegistrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tratamiento\TratamientoActualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TratamientoActualizar.Designer.cs">
+      <DependentUpon>TratamientoActualizar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\TratamientoDAO.cs" />
+    <Compile Include="Tratamiento\TratamientoEliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TratamientoEliminar.Designer.cs">
+      <DependentUpon>TratamientoEliminar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TratamientoListar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TratamientoListar.Designer.cs">
+      <DependentUpon>TratamientoListar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tratamiento\TratamientoRegistrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tratamiento\TratamientoRegistrar.Designer.cs">
+      <DependentUpon>TratamientoRegistrar.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Boleta\BoletaListado.resx">
+      <DependentUpon>BoletaListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boleta\BoletaListar.resx">
+      <DependentUpon>BoletaListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Boleta\BoletaRegistrar.resx">
+      <DependentUpon>BoletaRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historial\HistorialConsultar.resx">
+      <DependentUpon>HistorialConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paciente\PacienteListar.resx">
+      <DependentUpon>PacienteListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paciente\PacienteActualizar.resx">
+      <DependentUpon>PacienteActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paciente\PacienteRegistrar.resx">
+      <DependentUpon>PacienteRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paciente\PacienteEliminar.resx">
+      <DependentUpon>PacienteEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Container.resx">
+      <DependentUpon>Container.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago\PagoEliminar.resx">
+      <DependentUpon>PagoEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago\PagoListar.resx">
+      <DependentUpon>PagoListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pago\PagoRegistrar.resx">
+      <DependentUpon>PagoRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Tratamiento\TratamientoActualizar.resx">
+      <DependentUpon>TratamientoActualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TratamientoEliminar.resx">
+      <DependentUpon>TratamientoEliminar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TratamientoListar.resx">
+      <DependentUpon>TratamientoListar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tratamiento\TratamientoRegistrar.resx">
+      <DependentUpon>TratamientoRegistrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

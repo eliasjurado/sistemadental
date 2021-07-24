@@ -1,0 +1,46 @@
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\bin\Debug\appSistemaDental.exe.config
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\bin\Debug\appSistemaDental.exe
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\bin\Debug\appSistemaDental.pdb
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.csprojResolveAssemblyReference.cache
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Properties.Resources.resources
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.csproj.GenerateResource.Cache
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.exe
+f:\eliasluis\documentos\visual studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.pdb
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteListar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteActualizar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteRegistrar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteEliminar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Container.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.TratamientoListar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.TratamientoRegistrar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.TratamientoActualizar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Tratamiento.TratamientoEliminar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Atencion.AtencionRegistrar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Boleta.BoletaListado.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Boleta.BoletaListar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Historial.HistorialConsultar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Pago.PagoRegistrar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Pago.PagoEliminar.resources
+F:\EliasLuis\Documentos\Visual Studio 2012\Projects\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Pago.PagoListar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.csprojAssemblyReference.cache
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Boleta.BoletaListado.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Boleta.BoletaListar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Atencion.AtencionRegistrar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Historial.HistorialConsultar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteListar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteActualizar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteRegistrar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.PacienteEliminar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Container.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Pago.PagoEliminar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Pago.PagoListar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Pago.PagoRegistrar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Properties.Resources.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.TratamientoActualizar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.Tratamiento.TratamientoEliminar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.TratamientoListar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.TratamientoRegistrar.resources
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.csproj.GenerateResource.cache
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.csproj.CoreCompileInputs.cache
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.exe
+D:\02_projects\net_sistemadental\appSistemaDental\appSistemaDental\obj\Debug\appSistemaDental.pdb
